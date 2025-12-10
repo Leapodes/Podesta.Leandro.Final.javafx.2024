@@ -7,24 +7,24 @@ Esta aplicación permite gestionar vehículos de diferentes tipos (Autos, Motos 
 Funciona como un pequeño sistema CRUD completo donde se pueden:
 
 Funcionalidades principales
-
+
 Crear vehículos (Auto, Moto o Camión)
 Listar los vehículos registrados
 Actualizar datos de cualquier vehículo
 Eliminar un vehículo
-
-
+
+
 Ordenar la lista por diferentes criterios (precio, capacidad, etc.)
 Filtrar vehículos según condiciones específicas
 Iterar sobre los vehículos usando un iterador personalizado
 Modificar atributos usando interfaces funcionales (Consumer, Function, etc.
-
+
 Exportar e importar datos en:
 JSON
 CSV
 TXT para reportes legibles
 Interfaz gráfica con JavaFX para controlar todo desde botones y paneles visuales.
-
+
 
 Estructura general del proyecto
 
@@ -38,14 +38,14 @@ Contiene atributos y comportamientos comunes: marca/modelo, tipo, precio y estad
 VehiculoAuto 
 VehiculoMoto
 VehiculoCamion
-
+
 Todas añaden atributos propios (puertas, caja de cambios, cilindrada, capacidad, etc.)
 
 3)Enumerados
 EstadoVehiculo
 TipoDeMoto
 CajasDeCambios
-
+
 4)Interfaz CRUD
 Crud<T> con los métodos Create, Read, Update y Delete.
 
@@ -58,7 +58,7 @@ importación/exportación
 ordenamientos
 filtros
 serialización/deserialización
-
+
 6) Iterator Personalizado
 IteradorGestionVehiculos
 
@@ -67,8 +67,7 @@ ComparadorDeCapacidad para ordenar camiones por capacidad.
 
 8) JavaFX
 Interfaz gráfica con botones para operar todo el sistema sin usar consola.
-Interfaz Gráfica (imagenes)
-
+Interfaz Gráfica (imagenes en carpeta)
 
 9)Archivos generados
 El sistema genera automáticamente:JSON
@@ -80,4 +79,6 @@ reporte_filtrado.txt – Archivo legible para imprimir o enviar.
 DAT
 vehiculos.dat – Serialización binaria
 Diagrama UML
+
+![parte grafica del UML](ÌMAGENES%20JAVA/FINAL%20UML.png)
 
