@@ -1,0 +1,77 @@
+[
+  {
+    "tipo": "Auto",
+    "marcaModelo": "Toyota Corolla",
+    "precio": 25000000,
+    "estado": "DISPONIBLE",
+    "cantidadPuertas": 4,
+    "cajaDeCambios": "MANUAL"
+  },
+  {
+    "tipo": "Auto",
+    "marcaModelo": "Ford Mustang",
+    "precio": 75000000,
+    "estado": "DISPONIBLE",
+    "cantidadPuertas": 2,
+    "cajaDeCambios": "AUTOMATICA"
+  },
+  {
+    "tipo": "Auto",
+    "marcaModelo": "Chevrolet Onix",
+    "precio": 20000000,
+    "estado": "EN_REPARACION",
+    "cantidadPuertas": 5,
+    "cajaDeCambios": "SEMI_AUTOMATICA"
+  },
+  {
+    "tipo": "Moto",
+    "marcaModelo": "Yamaha YZF-R3",
+    "precio": 15000000,
+    "estado": "DISPONIBLE",
+    "cilindrada": 321,
+    "tipoDeMoto": "DEPORTIVA"
+  },
+  {
+    "tipo": "Moto",
+    "marcaModelo": "Honda XR150L",
+    "precio": 9000000,
+    "estado": "DISPONIBLE",
+    "cilindrada": 149,
+    "tipoDeMoto": "ENDURO"
+  },
+  {
+    "tipo": "Moto",
+    "marcaModelo": "Vespa Primavera 125",
+    "precio": 12000000,
+    "estado": "FUERA_DE_SERVICIO",
+    "cilindrada": 125,
+    "tipoDeMoto": "SCOOTER"
+  },
+  {
+    "tipo": "Camión",
+    "marcaModelo": "Scania R450",
+    "precio": 120000000,
+    "estado": "DISPONIBLE",
+    "capacidad": 18000,
+    "ejes": 3,
+    "acoplado": true
+  },
+  {
+    "tipo": "Camión",
+    "marcaModelo": "Mercedes-Benz Atego 1729",
+    "precio": 95000000,
+    "estado": "DISPONIBLE",
+    "capacidad": 12000,
+    "ejes": 2,
+    "acoplado": false
+  },
+  {
+    "tipo": "Camión",
+    "marcaModelo": "Volvo FH16",
+    "precio": 150000000,
+    "estado": "EN_REPARACION",
+    "capacidad": 25000,
+    "ejes": 4,
+    "acoplado": true
+  }
+]
